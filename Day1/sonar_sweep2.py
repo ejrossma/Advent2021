@@ -1,6 +1,6 @@
 #Day1 of Advent of Code problem 2
 def sonar_sweep2(input_file):
-    file = open(input_file, "r")
+    file = open(input_file)
 
     input = []
     for x in file:
