@@ -1,7 +1,6 @@
 #Day 1 of Advent of Code
 def sonar_sweep(input_file):
     file = open(input_file)
-    
     input = []
     for x in file:
         input.append(int(x))
@@ -12,5 +11,6 @@ def sonar_sweep(input_file):
             count += 1
         prev = x
     print(count)
+
 
 sonar_sweep("input.txt")

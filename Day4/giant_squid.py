@@ -38,11 +38,9 @@ def giant_squid(input_file):
                             #break
 
 def win(boards):
-    
     #use this to reference vertically (I THINK THIS ONLY CHECKS FIRST VALUE)
     test = True
     for board in boards:
-
         for val in board:
             print(val[0]) #the first vertical column
             if val[0][1] == False:
